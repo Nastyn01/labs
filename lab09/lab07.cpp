@@ -1,7 +1,22 @@
+/**
+* file main.cpp
+* brief розробка Doxygen документації до лабораторної роботи №7
+* author Syzonenko Anastasia
+* version 1.0
+* date 18.12.2020
+*/
+
 #include <iostream>
 #include <math.h>
 #define LENGHT 40
-
+/**
+* Функція для розрахунку "щасливого" квитка та підрахування слів у реченні
+* 
+* - створення змінних
+* - розрахунок результату за допомогою циклів while для "щасливого квитка та циклу for для підрахування слів
+* @return printf("lucky ticket"),  printf("it is not\n"), printf("%d\n", count)
+* @param printf("lucky ticket") - "щасливий", printf("it is not\n") - не "щасливий", printf("%d\n", count) - кількість слів
+*/
 int checkForLuckyTicket();
 int massive();
 int main() {
